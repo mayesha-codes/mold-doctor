@@ -15,7 +15,7 @@
     <!--Tailwind cdn-->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!--custom css-->
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 
 <body class="bg-white text-gray-800">
@@ -87,7 +87,8 @@
     <header class="bg-cover bg-center h-64 md:h-96" style="background-image: url('../assets/images/moldBanner.jpg');">
         <div class="flex items-center justify-center h-full bg-blue-900/75">
             <div class="max-w-5xl mx-auto px-4 text-center text-white">
-                <h2 class="text-3xl md:text-5xl font-bold mb-4 uppercase">Understanding Mold: What Every Homeowner SHOULD KNOW</h2>
+                <h2 class="text-3xl md:text-5xl font-bold mb-4 uppercase">Understanding Mold: What Every Homeowner
+                    SHOULD KNOW</h2>
                 <p class="text-lg text-white-700 mb-6">Learn the truth about mold, how it grows, health dangers, and
                     what you
                     can do to protect your home and family. Trusted information from certified professionals.</p>
@@ -95,61 +96,268 @@
         </div>
     </header>
     <!-- Article Section -->
-    <main class="max-w-6xl mx-auto px-4 py-12 space-y-12">
-        <!-- Section 1 -->
-        <section class="flex flex-col md:flex-row gap-10">
-            <div class="md:w-1/2">
-                <img src="../assets/images/mold_closeup.jpg" alt="Close-up image of mold growth on a wall"
-                    class="rounded-lg shadow-md w-full" loading="lazy" />
+    <!-- Main Content -->
+    <main class="max-w-6xl mx-auto px-4 py-12 space-y-16">
+        <!-- What is Mold -->
+        <section>
+            <div class="text-center mb-10">
+                <h2 class="text-3xl md:text-4xl font-bold text-blue-900 uppercase">🦠 What Is Mold?</h2>
+                <p class="text-gray-700 mt-2 max-w-2xl mx-auto">Mold is a type of fungus that thrives in damp
+                    environments and can cause health risks indoors.</p>
             </div>
-            <div class="md:w-1/2 space-y-4">
-                <h2 class="text-2xl font-semibold text-blue-900">What Is Mold?</h2>
-                <p>Mold is a type of fungus that thrives in damp, humid conditions. It can grow on virtually any
-                    surface—walls, ceilings, carpets, and wood—and spreads quickly if left untreated. Mold reproduces
-                    via microscopic spores that float through the air, making it both invasive and difficult to detect
-                    without proper tools.</p>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="space-y-6">
+                    <p>Mold grows in multicellular structures called hyphae, forming colonies on moist surfaces like
+                        drywall, carpet, and wood.</p>
+                    <p>It reproduces through airborne spores and can grow quickly under the right conditions—within 24
+                        to 48 hours.</p>
+                    <p>While mold helps decompose organic matter in nature, indoors it can cause health issues,
+                        especially certain types like <em>Stachybotrys chartarum</em> (black mold).</p>
+                    <p>Mold inspection and remediation help protect your home and health from hidden growth.</p>
+                    <p class="text-gray-700">
+                        Mold is a type of fungus that grows in multicellular structures known as hyphae, forming visible
+                        patches called colonies.
+                        It thrives in environments with excess moisture, such as areas affected by leaks, flooding, or
+                        high humidity.
+                    </p>
+
+                    <p class="text-gray-700">
+                        Mold can grow on a wide range of organic surfaces including drywall, wood, carpet, insulation,
+                        and fabric.
+                        It reproduces through tiny, lightweight spores that travel through the air and settle on damp
+                        surfaces, where new colonies
+                        can quickly form—often within 24 to 48 hours under the right conditions.
+                    </p>
+
+                    <p class="text-gray-700">
+                        While mold plays an important role in nature by breaking down dead organic matter, its presence
+                        indoors can be harmful.
+                        Certain mold species, such as <em>Stachybotrys chartarum</em> (black mold), can release
+                        mycotoxins—
+                        toxic compounds known to cause respiratory issues, allergic reactions, and other health
+                        complications.
+                    </p>
+
+                    <p class="text-gray-700">
+                        Even non-toxic mold varieties can negatively impact indoor air quality and trigger symptoms in
+                        sensitive individuals.
+                        Because mold often grows out of sight—behind walls, under flooring, or inside HVAC systems—it’s
+                        difficult to detect
+                        and remove without professional tools and expertise.
+                    </p>
+
+                    <p class="text-gray-700">
+                        That’s why timely mold inspection, testing, and remediation are critical steps in protecting
+                        both your property and your health.
+                    </p>
+                </div>
+                <div class="space-y-6">
+                    <div>
+                        <img src="../assets/images/moldinfo/mold-closeup.jpg" alt="Mold growth on wall"
+                            class="rounded-lg shadow-md w-full">
+                        <p class="text-sm text-center text-gray-600 mt-1">Mold growing on an indoor surface</p>
+                    </div>
+                    <div>
+                        <img src="../assets/images/moldinfo/mold-closeup2.webp" alt="Mold spores close-up"
+                            class="rounded-lg shadow-md w-full">
+                        <p class="text-sm text-center text-gray-600 mt-1">Close-up of mold spores under microscope</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-12 px-4 max-w-7xl mx-auto">
+            <div class="mb-10 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-blue-900 mb-4 uppercase">Types of Mold Found Indoors</h2>
+                <p class="text-gray-700 max-w-2xl mx-auto">
+                    Indoor mold comes in many forms. Some are common and harmless, while others can lead to serious
+                    health and structural issues. Learn about the most frequent types we encounter during inspections.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+                <!-- Card Template -->
+                <div
+                    class="border rounded-lg shadow-sm hover:shadow-lg transition bg-white p-4 flex flex-col items-center text-center">
+                    <img src="../../assets/images/mold-types/stachybotrys.jpg" alt="Stachybotrys (Black Mold)"
+                        class="w-20 h-20 object-contain mb-4" loading="lazy" />
+                    <h3 class="text-xl font-semibold text-blue-900 mb-2">Stachybotrys (Black Mold)</h3>
+                    <p class="text-gray-700 text-sm">
+                        Commonly known as toxic black mold, this dark mold grows on damp drywall, wood, and insulation.
+                        It can release dangerous mycotoxins and lead to severe respiratory problems.
+                    </p>
+                </div>
+
+                <div
+                    class="border rounded-lg shadow-sm hover:shadow-lg transition bg-white p-4 flex flex-col items-center text-center">
+                    <img src="../../assets/images/mold-types/aspergillus.jpg" alt="Aspergillus Mold"
+                        class="w-20 h-20 object-contain mb-4" loading="lazy" />
+                    <h3 class="text-xl font-semibold text-blue-900 mb-2">Aspergillus</h3>
+                    <p class="text-gray-700 text-sm">
+                        Found on dust, food, and walls, Aspergillus can cause allergic reactions and lung infections,
+                        especially in people with weakened immune systems.
+                    </p>
+                </div>
+
+                <div
+                    class="border rounded-lg shadow-sm hover:shadow-lg transition bg-white p-4 flex flex-col items-center text-center">
+                    <img src="../../assets/images/mold-types/cladosporium.jpg" alt="Cladosporium Mold"
+                        class="w-20 h-20 object-contain mb-4" loading="lazy" />
+                    <h3 class="text-xl font-semibold text-blue-900 mb-2">Cladosporium</h3>
+                    <p class="text-gray-700 text-sm">
+                        Appearing dark green or brown, Cladosporium often grows on fabrics and wood. It may trigger
+                        asthma symptoms and allergic reactions.
+                    </p>
+                </div>
+
+                <div
+                    class="border rounded-lg shadow-sm hover:shadow-lg transition bg-white p-4 flex flex-col items-center text-center">
+                    <img src="../../assets/images/mold-types/penicillium.jpg" alt="Penicillium Mold"
+                        class="w-20 h-20 object-contain mb-4" loading="lazy" />
+                    <h3 class="text-xl font-semibold text-blue-900 mb-2">Penicillium</h3>
+                    <p class="text-gray-700 text-sm">
+                        This fast-growing mold appears blue or green and spreads quickly on damp materials. It's known
+                        to worsen allergies and asthma.
+                    </p>
+                </div>
+
+                <div
+                    class="border rounded-lg shadow-sm hover:shadow-lg transition bg-white p-4 flex flex-col items-center text-center">
+                    <img src="../../assets/images/mold-types/alternaria.jpg" alt="Alternaria Mold"
+                        class="w-20 h-20 object-contain mb-4" loading="lazy" />
+                    <h3 class="text-xl font-semibold text-blue-900 mb-2">Alternaria</h3>
+                    <p class="text-gray-700 text-sm">
+                        Typically found in damp places like showers and sinks, Alternaria is a common allergen that can
+                        irritate the nose, mouth, and upper respiratory tract.
+                    </p>
+                </div>
+
+                <div
+                    class="border rounded-lg shadow-sm hover:shadow-lg transition bg-white p-4 flex flex-col items-center text-center">
+                    <img src="../../assets/images/mold-types/fusarium.jpg" alt="Fusarium Mold"
+                        class="w-20 h-20 object-contain mb-4" loading="lazy" />
+                    <h3 class="text-xl font-semibold text-blue-900 mb-2">Fusarium</h3>
+                    <p class="text-gray-700 text-sm">
+                        Often grows on water-damaged carpets and wallpapers. Prolonged exposure can cause infections and
+                        allergic reactions.
+                    </p>
+                </div>
             </div>
         </section>
 
-        <!-- Section 2 -->
-        <section class="flex flex-col md:flex-row gap-10 md:flex-row-reverse">
-            <div class="md:w-1/2">
-                <img src="../assets/images/mold_health_risks.jpg" alt="Family wearing masks due to mold exposure"
-                    class="rounded-lg shadow-md w-full" loading="lazy" />
-            </div>
-            <div class="md:w-1/2 space-y-4">
-                <h2 class="text-2xl font-semibold text-blue-900">Why Mold Is Dangerous</h2>
-                <p>Beyond property damage, mold poses serious health threats—especially to children, the elderly, and
-                    those with asthma or compromised immune systems. Common symptoms include coughing, sneezing, skin
-                    irritation, and respiratory problems. Toxic black mold can even lead to neurological issues if
-                    exposure is prolonged.</p>
+        <!-- Why Mold is Dangerous -->
+        <section>
+            <div class="grid md:grid-cols-2 gap-8 items-center">
+                <div>
+                    <img src="../assets/images/moldinfo/mold-health-risk.webp" alt="Family wearing masks due to mold"
+                        class="rounded-lg shadow-md w-full">
+                    <p class="text-sm text-center text-gray-600 mt-1">Family protecting themselves from mold exposure
+                    </p>
+                </div>
+                <div>
+                    <h2 class="text-3xl font-semibold text-blue-900 mb-4">🛑 Why Mold Is Dangerous</h2>
+                    <p>Mold affects indoor air quality and can lead to allergies, asthma, and other respiratory issues.
+                        Toxic mold may even cause neurological effects with long exposure. It's especially harmful to
+                        children, the elderly, and immunocompromised individuals.</p>
+                    <p class="text-gray-700 mb-4">
+                        Mold is more than just an unsightly stain on your wall—it's a serious health hazard. When
+                        mold spores are released into the air, they can be easily inhaled, affecting the lungs and
+                        respiratory system. People with asthma, allergies, or weakened immune systems are especially
+                        vulnerable to the effects of mold exposure.
+                    </p>
+
+                    <p class="text-gray-700 mb-4">
+                        Breathing in mold spores can cause a range of symptoms, including persistent coughing,
+                        sneezing, wheezing, and eye irritation. Even individuals with no history of allergies may
+                        develop sensitivities after prolonged exposure. Skin rashes and sinus congestion are also
+                        common.
+                    </p>
+
+                    <p class="text-gray-700 mb-4">
+                        One of the most dangerous types of mold is <em>Stachybotrys chartarum</em>, commonly
+                        referred to as black mold. This toxic mold can produce harmful mycotoxins that may cause
+                        neurological problems, chronic fatigue, and in severe cases, long-term respiratory damage.
+                        Children, elderly individuals, and those with compromised immune systems are most at risk.
+                    </p>
+
+                    <p class="text-gray-700 mb-4">
+                        In homes with poor ventilation or a history of water damage, mold can grow undetected behind
+                        walls, under floors, and in HVAC systems. Because it's often hidden, many people continue to
+                        live with dangerous mold exposure without realizing the cause of their health issues.
+                    </p>
+
+                    <p class="text-gray-700">
+                        Timely mold inspection, air quality testing, and professional remediation are essential
+                        steps to prevent these risks. Protecting your indoor environment from mold means protecting
+                        your health and the health of everyone who enters your home or workplace.
+                    </p>
+                </div>
             </div>
         </section>
+        <!-- How Mold Grows -->
+        <section>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="space-y-6">
+                    <div>
+                        <img src="../assets/images/moldinfo/mold-growth.jpg" alt="Mold lifecycle"
+                            class="rounded-lg shadow-md w-full">
+                        <p class="text-sm text-center text-gray-600 mt-1">Lifecycle of indoor mold growth</p>
+                    </div>
+                    <div>
+                        <img src="../assets/images/moldinfo/mold-growth-moisture-source.webp"
+                            alt="Water leak causes mold" class="rounded-lg shadow-md w-full">
+                        <p class="text-sm text-center text-gray-600 mt-1">Moisture and water leaks as primary mold
+                            sources</p>
+                    </div>
+                </div>
+                <div>
+                    <h2 class="text-3xl font-semibold text-blue-900 mb-4">🌱 How Mold Grows</h2>
+                    <p>Mold needs moisture, organic material, and lack of sunlight to grow. Common places include
+                        basements, bathrooms, and around leaky pipes. Good ventilation and moisture control are
+                        essential to prevent mold growth.</p>
+                    <p class="text-gray-700 mb-4">
+                        Mold growth is primarily driven by one thing: moisture. Mold spores are always present in the
+                        air, both indoors and outdoors. However, they only become a problem when they find the right
+                        environment to settle and multiply. That environment typically includes excess moisture, organic
+                        material, and a lack of ventilation.
+                    </p>
 
-        <!-- Section 3 -->
-        <section class="flex flex-col md:flex-row gap-10">
-            <div class="md:w-1/2">
-                <img src="../assets/images/moisture_source.jpg" alt="Water leakage causing mold under floor"
-                    class="rounded-lg shadow-md w-full" loading="lazy" />
-            </div>
-            <div class="md:w-1/2 space-y-4">
-                <h2 class="text-2xl font-semibold text-blue-900">How Mold Grows</h2>
-                <p>Mold grows in areas with excess moisture—such as after water damage, plumbing leaks, or high indoor
-                    humidity. It needs a food source (like drywall or wood) and a lack of sunlight. That’s why
-                    basements, crawlspaces, and bathrooms are common problem areas. Proper ventilation and early
-                    detection are key to prevention.</p>
+                    <p class="text-gray-700 mb-4">
+                        Common indoor sources of moisture include plumbing leaks, roof damage, flooded basements, high
+                        humidity, and poor ventilation. Once mold spores land on a damp surface—such as drywall, wood,
+                        carpet, or insulation—they begin to colonize within 24 to 48 hours.
+                    </p>
+
+                    <p class="text-gray-700 mb-4">
+                        Mold feeds on organic materials found in building materials, fabrics, and even dust. Areas with
+                        limited sunlight and stagnant air are especially vulnerable, making bathrooms, kitchens, attics,
+                        and basements prime targets for mold infestation.
+                    </p>
+
+                    <p class="text-gray-700 mb-4">
+                        HVAC systems can also contribute to mold spread. If mold grows inside air ducts or vents, spores
+                        can be distributed throughout your home, affecting multiple rooms and the health of everyone
+                        inside.
+                    </p>
+
+                    <p class="text-gray-700">
+                        Preventing mold growth starts with moisture control. Regular inspections, quick repairs of water
+                        damage, use of dehumidifiers, and proper airflow are key steps in stopping mold before it
+                        starts. If mold does appear, it should be professionally inspected and remediated to avoid
+                        further spread and health complications.
+                    </p>
+                </div>
             </div>
         </section>
-
-        <!-- Section 4 -->
-        <section class="text-center">
+        <!-- Quote -->
+        <section class="text-center py-10 bg-blue-50 rounded-md">
             <h2 class="text-2xl font-semibold text-blue-900 mb-4">Did You Know?</h2>
             <blockquote class="italic text-blue-800 max-w-3xl mx-auto">"The EPA states that all molds have the potential
                 to cause health effects. It is crucial to eliminate sources of moisture and remove mold promptly."
             </blockquote>
         </section>
-    </main>
 
+        <!-- Types of Mold Cards -->
+    </main>
     <!-- CTA -->
     <section class="bg-blue-900 text-white py-12 text-center">
         <h3 class="text-2xl font-bold mb-4">Ready for a Mold-Free Home?</h3>
@@ -158,8 +366,6 @@
             class="bg-yellow-400 text-blue-900 px-6 py-3 rounded-full font-semibold hover:bg-yellow-300">Call (888)
             900-6021</a>
     </section>
-
-
     <!-- Footer -->
     <footer class="bg-blue-900 text-white py-12">
         <div class="max-w-7xl mx-auto px-4 grid sm:grid-cols-2 md:grid-cols-4 gap-10">
@@ -250,7 +456,7 @@
         </div>
     </footer>
     <!-- Scripts -->
-    <script src="./js/script.js"></script>
+    <script src="../js/script.js"></script>
 </body>
 
 </html>
