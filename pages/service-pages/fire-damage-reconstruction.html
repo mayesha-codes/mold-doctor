@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mold Doctors</title>
+    <meta name="description"
+        content="Expert mold inspection, testing, and remediation services. Protect your health and property with certified mold specialists." />
+    <meta name="keywords" content="mold inspection, mold remediation, mold testing, mold removal services" />
+    <meta name="author" content="Mold Doctors" />
+    <!--Fontawsome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!--Tailwind cdn-->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!--custom css-->
+    <link rel="stylesheet" href="../../css/styles.css">
+</head>
+
+<body class="bg-white text-gray-800">
+    <!-- Navbar -->
+    <nav class="bg-blue-900 text-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+            <!--logo-->
+            <a href="../../index.html">
+                <h1 class="text-xl font-bold"><span class="text-yellow-400">MOLD</span><span
+                        class="text-white">DOCTORS</span>
+                </h1>
+            </a>
+            <!--Hamburger-->
+            <button id="menu-btn" class="md:hidden focus:outline-none">
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
+                    </path>
+                </svg>
+            </button>
+            <!--menu-->
+            <ul id="menu"
+                class="hidden md:flex flex-col md:flex-row md:items-center space-x-2 text-sm absolute md:static top-full left-0 w-full md:w-auto bg-blue-900 md:bg-transparent md:shadow-none z-40 md:space-x-1 md:z-auto">
+                <li><a href="../../index.html" class="block px-2 py-2 hover:text-yellow-400 uppercase">HOME</a></li>
+                <!--Services with dropdown-->
+                <li class="relative group md:static">
+                    <a href="./mold-services.html">
+                        <button
+                            class="flex items-center justify-between w-full px-2 py-2 hover:text-yellow-400 md:inline-block md:w-auto dropdown-toggle cursor-pointer uppercase">
+                            MOLD SERVICES
+                            <span id="servicesIcon" class="md:hidden cursor-pointer font-bold">+</span>
+                        </button>
+                    </a>
+                    <!-- Dropdown -->
+                    <ul
+                        class="md:group-hover:block absolute w-65 bg-white text-blue-900 shadow-lg rounded-md md:group-hover:opacity-100 transition-all duration-400 ease-in-out z-50 dropdown-menu hidden">
+                        <li><a href="mold-inspection.html" class="block px-2 py-2 hover:bg-blue-100 uppercase">MOLD
+                                INSPECTION</a>
+                        </li>
+                        <li><a href="./mold-testing.html" class="block px-2 py-2 hover:bg-blue-100 uppercase">MOLD
+                                TESTING</a>
+                        </li>
+                        <li><a href="./mold-remediation.html" class="block px-2 py-2 hover:bg-blue-100 uppercase">MOLD
+                                REMEDIATION</a></li>
+                        <li><a href="./air-quality-testing.html" class="block px-2 py-2 hover:bg-blue-100 uppercase">AIR
+                                QUALITY
+                                TESTING</a></li>
+                        <li><a href="./odor-removal.html"
+                                class="block px-2 py-2 hover:bg-blue-100 uppercase">Ododr
+                                Removal</a></li>
+                        <li><a href="./post-remediation.html"
+                                class="block px-2 py-2 hover:bg-blue-100 uppercase">Post-Remediation Verification</a>
+                        </li>
+                        <li><a href="./water-damage-assesment.html"
+                                class="block px-2 py-2 hover:bg-blue-100 uppercase">WATER
+                                DAMAGE ASSESMENT</a></li>
+                        <li><a href="./fire-damage-reconstruction.html"
+                                class="block px-2 py-2 hover:bg-blue-100 uppercase">FIRE
+                                DAMAGE RECONSTRUCTION</a></li>
+                    </ul>
+                </li>
+                <li><a href="../About.html" class="block px-2 py-2 hover:text-yellow-400 uppercase">ABOUT</a></li>
+                <li><a href="../MoldInfo.html" class="block px-2 py-2 hover:text-yellow-400 uppercase">MOLD INFO</a>
+                </li>
+                <li><a href="../FAQ.html" class="block px-2 py-2 hover:text-yellow-400 uppercase">FAQ</a></li>
+                <li><a href="../Contact.html" class="block px-2 py-2 hover:text-yellow-400 uppercase">CONTACT</a></li>
+            </ul>
+            <!-- Call Button -->
+            <a href="tel:+18889006021"
+                class="bg-yellow-400 text-blue-900 px-4 py-2 rounded font-bold hover:bg-yellow-300 text-sm hidden md:inline-block">Call
+                (888)
+                900-6021</a>
+        </div>
+    </nav>
+    <!--Banner Section-->
+    <header class="relative bg-cover bg-center min-h-[60vh] md:min-h-[80vh] flex items-center justify-center"
+        style="background-image: url('../../assets/images/moldBanner.jpg');">
+        <!-- Overlay -->
+        <div class="absolute inset-0 bg-black/70"></div>
+        <!-- Banner Content -->
+        <div class="relative z-10 max-w-3xl px-4 text-center text-white">
+            <h1 class="text-3xl md:text-5xl font-bold mb-4 uppercase">FIRE DAMAGE RECONSTRUCTION</h1>
+                <p class="text-base md:text-lg mb-6">Recover fast from fire damage with Mold Doctors. We restore, repair, and prevent mold growth. Trusted experts—here when you need us most.</p>
+                <a href="#conatct-number"
+                    class="inline-block bg-yellow-400 text-blue-900 px-6 py-3 rounded hover:bg-yellow-300 transition duration-300 text-sm md:text-base font-bold">Call
+                    Now</a>
+        </div>
+         <!--Breadcrumb-->
+        <nav class="absolute bottom-0 left-4 text-xs md:text-sm text-white z-20" aria-label="Breadcrumb">
+            <ol class="list-reset flex flex-wrap items-center space-x-2">
+                <li class="pb-4">
+                    <a href="i../../ndex.html" class="text-white hover:text-yellow-600 font-semibold">Home</a>
+                    <span class="mx-2 text-white">></span>
+                </li>
+                <li class="pb-4">
+                    <a href="mold-services.html" class="text-white hover:text-yellow-600 font-semibold">Mold
+                        Services</a>
+                    <span class="mx-2 text-white">></span>
+                </li>
+                <li aria-current="page" class="text-yellow-600 font-semibold pb-4 border-b-2 border-yellow-600">
+                    Fire Damage Reconstruction
+                </li>
+            </ol>
+        </nav>
+    </header>
+    <!--Content section-->
+    <main class="max-w-6xl mx-auto px-4 py-12 space-y-10 bg-white text-gray-800">
+        <div class="flex flex-col md:flex-row md:space-x-10 space-y-8 md:space-y-0">
+
+            <!-- Sidebar -->
+            <aside class="w-full md:w-1/3">
+                <div class="border border-gray-200 rounded-lg shadow bg-gray-50 overflow-hidden">
+                    <a href="mold-inspection.html"
+                        class="block px-5 py-4 text-sm font-semibold uppercase border-b border-gray-200 text-blue-900 hover:bg-blue-50 transition">
+                        Mold Inspection
+                    </a>
+                    <a href="./mold-testing.html"
+                        class="block px-5 py-4 text-sm font-semibold uppercase border-b border-gray-200 text-blue-900 hover:bg-blue-50 transition">
+                        Mold Testing
+                    </a>
+                    <a href="./mold-remediation.html"
+                        class="block px-5 py-4 text-sm font-semibold uppercase border-b border-gray-200 bg-blue-50 text-blue-900">
+                        Mold Remediation
+                    </a>
+                    <a href="./air-quality-testing.html"
+                        class="block px-5 py-4 text-sm font-semibold uppercase border-b border-gray-200 text-blue-900 hover:bg-blue-50 transition">
+                        Air Quality Testing
+                    </a>
+                    <a href="./odor-removal.html"
+                        class="block px-5 py-4 text-sm font-semibold uppercase text-blue-900 hover:bg-blue-50 transition">
+                        Odor Removal
+                    </a>
+                    <a href="./post-remediation.html"
+                        class="block px-5 py-4 text-sm font-semibold uppercase text-blue-900 hover:bg-blue-50 transition">
+                        Post-Remediation Verification
+                    </a>
+                    <a href="./water-damage-assesment.html"
+                        class="block px-5 py-4 text-sm font-semibold uppercase border-b border-gray-200 text-blue-900 hover:bg-blue-50 transition">
+                        Water Damage Assessment
+                    </a>
+                    <a href="./fire-damage-reconstruction.html"
+                        class="block px-5 py-4 text-sm font-semibold uppercase text-blue-900 hover:bg-blue-100 transition">
+                        Fire Damage Reconstruction
+                    </a>
+                    <div class="p-5">
+                        <h3 class="text-lg font-semibold text-blue-900 mb-2">Contact Us</h3>
+                        <p class="text-gray-700 mb-4">For immediate assistance, call us at:</p>
+                        <a href="tel:+18889006021" class="text-yellow-400 font-bold text-lg hover:underline">+1 (888)
+                            900-6021</a>
+                        <p class="text-gray-700 mt-2">Or email us at:</p>
+                        <a href="mailto:" class="text-yellow-400 font-bold text-lg hover:underline">xyz</a>
+                    </div>
+
+                </div>
+            </aside>
+
+            <!-- Main Content -->
+            <section class="w-full md:w-2/3 space-y-8">
+
+                <img src="../../assets/images/moldInspection.jpg" alt="Professional Mold Inspector at Work"
+                    class="rounded-lg shadow-md w-full md:w-[75%]" loading="lazy" />
+
+                <div class="space-y-4">
+                    <h2 class="text-3xl font-bold text-blue-900">Why Mold Inspection Matters</h2>
+                    <p class="text-gray-700">
+                        Mold can be a silent threat, growing unnoticed in hidden areas of your home or commercial
+                        property.
+                        Our professional mold inspection services utilize cutting-edge technology, including infrared
+                        cameras and
+                        moisture meters, to detect potential mold colonies before they become a major issue.
+                    </p>
+                </div>
+
+                <div class="space-y-4">
+                    <h2 class="text-2xl font-semibold text-blue-900">When Should You Get a Mold Inspection?</h2>
+                    <ul class="list-disc ml-6 space-y-2 text-gray-700">
+                        <li>You notice a persistent musty odor indoors</li>
+                        <li>You've had recent water damage or leaks</li>
+                        <li>You’re experiencing unexplained allergies or respiratory issues</li>
+                        <li>You’re buying or selling a home or property</li>
+                    </ul>
+                </div>
+
+                <div class="space-y-4">
+                    <h2 class="text-2xl font-semibold text-blue-900">What Our Inspection Includes</h2>
+                    <p class="text-gray-700">
+                        Our certified specialists perform a comprehensive evaluation of your property, including:
+                    </p>
+                    <ul class="list-disc ml-6 space-y-2 text-gray-700">
+                        <li>Interior & exterior visual mold inspection</li>
+                        <li>Humidity and moisture level testing</li>
+                        <li>Infrared thermal imaging scans</li>
+                        <li>Detailed report with findings and recommendations</li>
+                    </ul>
+                </div>
+
+                <div class="space-y-4">
+                    <h2 class="text-2xl font-semibold text-blue-900">Schedule a Professional Mold Inspection Today</h2>
+                    <p class="text-gray-700">
+                        Don’t wait for the problem to grow. Early detection can save you thousands in potential damages
+                        and
+                        safeguard your health. Our experts are available 24/7 to inspect residential and commercial
+                        properties.
+                    </p>
+                </div>
+            </section>
+        </div>
+    </main>
+    <!-- Contact Section -->
+    <section id="contact" class="bg-blue-900 text-white py-12">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h3 class="text-2xl font-semibold mb-4">Book Your Mold Inspection Now</h3>
+            <p class="mb-6">Call us at (888) 900-6021 or use the contact form to schedule your service.</p>
+            <a href="tel:+18889006021"
+                class="bg-yellow-400 text-blue-900 px-6 py-3 font-bold rounded hover:bg-yellow-300">Call Now</a>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="bg-blue-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 grid sm:grid-cols-2 md:grid-cols-4 gap-10">
+            <!-- About -->
+            <div>
+                <h2 class="text-2xl font-bold mb-4">
+                    <a href="../../index.html">
+                        <span class="text-yellow-400">MOLD</span><span class="text-white">DOCTORS</span>
+                    </a>
+                </h2>
+                <p class="text-sm text-blue-100 leading-relaxed">
+                    Regardless of the nature of your mold issue, our certified specialists are prepared to take action
+                    the moment
+                    you call.
+                    Our dedication to customer service is unmatched. We work hard to provide reliable, prompt service to
+                    get your
+                    environment back to safe conditions.
+                </p>
+            </div>
+
+            <!-- Menu -->
+            <div>
+                <h3 class="text-lg font-bold mb-4">MENU</h3>
+                <ul class="space-y-2 text-sm font-semibold text-blue-100">
+                    <li><a href="../../index.html" class="hover:text-yellow-400 uppercase">HOME</a></li>
+                    <li><a href="../About.html" class="hover:text-yellow-400 uppercase">ABOUT</a></li>
+                    <li><a href="../MoldInfo.html" class="hover:text-yellow-400 uppercase">MOLD INFO</a></li>
+                    <li><a href="../FAQ.html" class="hover:text-yellow-400 uppercase">FAQ</a></li>
+                    <li><a href="../Contact.html" class="hover:text-yellow-400 uppercase">CONTACT</a></li>
+                </ul>
+            </div>
+            <!-- Services -->
+            <div>
+                <h3 class="text-lg font-bold mb-4">SERVICES</h3>
+                <ul class="space-y-2 text-sm font-semibold text-blue-100">
+                    <li><a href="./mold-inspection.html" class="hover:text-yellow-400 uppercase">MOLD INSPECTION</a>
+                    </li>
+                    <li><a href="./mold-testing.html" class="hover:text-yellow-400 uppercase">MOLD TESTING</a></li>
+                    <li><a href="./mold-remediation.html" class="hover:text-yellow-400 uppercase">MOLD REMEDIATION</a>
+                    </li>
+                    <li><a href="./air-quality-testing.html" class="hover:text-yellow-400 uppercase">AIR QUALITY
+                            TESTING</a></li>
+                    <li><a href="./odor-removal.html" class="hover:text-yellow-400 uppercase">ODOR REMOVAL</a></li>
+                    <li><a href="./post-remediation-verification.html"
+                            class="hover:text-yellow-400 uppercase">POST-REMEDIATION
+                            VERIFICATION</a></li>
+                    <li><a href="./water-damage-assesment.html" class="hover:text-yellow-400 uppercase">WATER DAMAGE
+                            ASSESMENT</a></li>
+                    <li><a href="./fire-damage-reconstruction.html" class="hover:text-yellow-400 uppercase">FIRE DAMAGE
+                            RECONSTRUCTION</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Contact -->
+            <div>
+                <div class='mb-10'>
+                    <h4 class="text-md font-semibold mb-3 ">CONTACT US</h4>
+                    <p class="text-sm mb-2">📞 Phone: <a href="tel:+18889006021"
+                            class="text-yellow-400 hover:underline">+1 (888)
+                            900-6021</a></p>
+                    <p class="text-sm mb-2">✉️ Email: <a href="mailto:info@molddoctors.com"
+                            class="text-yellow-400 hover:underline">info@molddoctors.com</a></p>
+                    <p class="text-sm">📍 Address: Los Angeles, California</p>
+                </div>
+
+                <!-- Social Media -->
+                <div>
+                    <h4 class="text-md font-semibold mb-3">Follow Us</h4>
+                    <div class="flex space-x-4 mt-2 text-yellow-400 text-2xl mb-5">
+                        <a href="#" aria-label="Facebook" class="hover:text-white"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram" class="hover:text-white"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter" class="hover:text-white"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn" class="hover:text-white"><i
+                                class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="text-center text-blue-200 text-sm mt-8">
+            &copy; 2025 MoldDoctors. All rights reserved.
+        </div>
+        </div>
+    </footer>
+    <!-- Scripts -->
+    <script src="../../js/script.js"></script>
+</body>
+
+</html>
